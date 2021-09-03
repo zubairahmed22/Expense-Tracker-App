@@ -1,0 +1,63 @@
+
+.addtransDiv{
+ 
+    justify-content: center;
+    width: 400px;
+}
+.addtransDiv > h3{
+    border-bottom: 1px solid gray ;
+    padding-bottom: 10px;
+}
+.form-control{
+    
+    flex-direction: column;
+    flex: start;
+    margin-top: 10px;
+}
+.form-control > label {
+font-weight: bold;
+margin-right: 200px;
+}
+#description{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border-color:lightblue; ;
+    margin-top: 10px;
+    outline: none;
+
+}
+#transactionamount{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border-color:lightblue; ;
+    margin-top: 10px;
+    outline: none;
+ 
+}
+#Amountid{
+    margin-left: 45px;
+   
+}
+.fullBtn{
+    width: 300px;
+    height: 37px;
+    background-color: rgb(14, 14, 121);
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: white;
+    padding: 10px !important;
+    
+}
+.fullBtnd{
+    width: 300px;
+    height: 37px;
+    background-color: rgb(149, 149, 212);
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: white;
+    padding: 10px !important;
+}

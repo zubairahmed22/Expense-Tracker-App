@@ -1,0 +1,32 @@
+.inc-exp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.income{
+    width: 160px;
+    height: 100px;
+    box-shadow: lightgrey 2px 3px 3px 1px;
+}
+.expense{
+    width: 160px;
+    height: 100px;
+    box-shadow: lightgrey 2px 3px 3px 1px;
+}
+.income > h4{
+    padding: 0;
+    margin: 10;
+    align-items: center;
+}
+.money_plus{
+    color: green;
+    margin-top: -15px;
+    font-weight: bold;
+    
+}
+.money_minus{
+    color: red;
+    margin-top: -15px;
+    font-weight: bold;
+}
